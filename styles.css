@@ -200,6 +200,24 @@ nav .nav-right a{
     justify-content: flex-start;
     margin-top: 10px;
 }
+#name-1 {
+    margin-left:-513px;
+    margin-bottom:7px;
+}
+
+#hometown-1 {
+    margin-left:-415px;
+    margin-bottom:7px;
+}
+#destination-1 {
+    margin-left:-300px;
+    margin-bottom:7px;
+}
+
+#contact-1 {
+    margin-left:-420px;
+    margin-bottom:7px;
+}
 
 .contact-info input,
 .contact-info select {
@@ -279,6 +297,27 @@ nav .nav-right a{
     }
     .contact-info button {
         margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    #name-1 {
+        margin-left:-13px;
+        margin-bottom:7px;
+    }
+    
+    #hometown-1 {
+        margin-left:-12px;
+        margin-bottom:7px;
+    }
+    #destination-1 {
+        margin-left:-10px;
+        margin-bottom:7px;
+    }
+    
+    #contact-1 {
+        margin-left:-20px;
+        margin-bottom:7px;
     }
 }
 
